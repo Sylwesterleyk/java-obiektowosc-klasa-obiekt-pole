@@ -36,12 +36,7 @@ public class PlotProgram {
         p5.area = 55000;
         p5.tel = 751425625;
 
-        Plot[] plots = new Plot[5];
-        plots[0] = p1;
-        plots[1] = p2;
-        plots[2] = p3;
-        plots[3] = p4;
-        plots[4] = p5;
+        Plot[] plots = {p1, p2, p3, p4, p5};
 
         for (Plot a : plots) {
             System.out.println("Numer działki: " + a.number);
